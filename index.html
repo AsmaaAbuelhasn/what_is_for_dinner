@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link href="./style/css/all.min.css" rel="stylesheet" />
+    <link href="./style/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./style/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<!-- ############################## Start Navbar ################################-->
+ <nav class="navbar navbar-expand-lg  bg-white">
+  <div class="container">
+    <div class="logo navbar-brand d-flex gap-3 justify-content-center align-items-center">
+      <i class="fa-solid fa-utensils d-flex justify-content-center align-items-center text-white rounded-circle"></i>
+      <div class="description d-flex flex-column">
+        <h2 class="mb-0">What's For Dinner</h2>
+        <span>Your daily meal inspiration</span>
+      </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item d-flex align-content-center align-items-center">
+          <a class="nav-link active nav-icon" aria-current="page" href="#"><i class="fa-solid fa-bookmark fs-5"></i></a>
+        </li>
+        <li class="nav-item d-flex align-content-center align-items-center">
+          <a class="nav-link nav-icon" href="#"><i class="fa-solid fa-clock-rotate-left fs-5"></i></a>
+        </li>
+        <li class="nav-item d-flex align-content-center align-items-center">
+          <a class="nav-link nav-icon" href="#"><i class="fa-solid fa-gear fs-5 "></i></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#"><img src="./style/images/avatar-4 (1).jpg" alt="" class="user_image rounded-circle"/></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ############################## End Navbar ################################-->
+ <div class="recapybody rounded-5  ">
+  
+    <div class="row">
+      <div class="col-md-5 col-12 position-relative ">
+        <img src="./style/images/mediterraneanquinoabowl.avif" alt="" class="w-100 h-100 object-fit-cover rounded-start-5 " id="image"/>
+        <div class="recpi_rate d-flex  justify-content-center align-items-center gap-2 bg-white py-2 px-3 mt-4 ms-5 position-absolute top-0 start-0 rounded-pill">
+          <i class="fa-solid fa-star"></i>
+          <p class="mb-0" id="rate">4.7</p>
+          <span id="reviews">(412 reviews)</span>
+        </div>
+        <div class="recpi_cooking d-flex bg-white  w-75 p-4 rounded-4 justify-content-between align-items-center position-absolute bottom-0 start-0 mb-4  ms-5">
+          <div class="preTime d-flex flex-column justify-content-center align-items-center gap-1">
+            <i class="fa-solid fa-clock fs-4"></i>
+            <p class="mb-0">Prep Time</p>
+            <span id="prepTime">10 min</span>
+          </div>
+          <div class="cookTime d-flex flex-column justify-content-center align-items-center gap-1">
+            <i class="fa-solid fa-fire-burner fs-4"></i>
+            <p class="mb-0">Cook Time</p>
+            <span id="cookTime">15 min</span>
+          </div>
+          <div class="serving d-flex flex-column justify-content-center align-items-center gap-1">
+            <i class="fa-solid fa-users fs-4"></i>
+            <p class="mb-0">Serving</p>
+            <span id="serving">2 People</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-12">
+        <div class="container ">
+          <div class="rightside overflow-y-scroll overflow-x-hidden vh-100">
+                    <div class="classification d-flex mt-5 gap-3 ">
+          <p class="level rounded-pill py-2 px-3" id="level">Easy</p>
+          <p class="classi rounded-pill py-2 px-3" id="classification">seafood</p>
+          </div>
+          <div class="recpititle">
+             <div class="recpiName d-flex justify-content-between align-items-center">
+              <h1 class="name" id="name">Shrimp Scampi</h1>
+              <div class="icons d-flex gap-3 ">
+                <a href="#" class="text-decoration-none p-3 rounded-3"><i class="fa-solid fa-bookmark    d-flex justify-content-center align-items-center"></i></a>
+                <a href="#" class="text-decoration-none p-3 rounded-3"><i class="fa-solid fa-share-nodes   d-flex justify-content-center align-items-center"></i></a>
+              </div>
+              </div>
+               <p class="recpidescription" id="description">Garlicky shrimp in white wine butter sauce</p>
+
+          </div>
+
+     <div class="extendedpreparation  position-relative   p-2  align-items-center gap-3  rounded-3 mt-3" id="extendedpreparation">
+    <i class="fa-solid fa-triangle-exclamation   fs-4 p-2 d-flex justify-content-center align-items-center"></i> 
+    <div>
+      <h5>Extended Preparation Time</h5>
+       <p class="mb-0">This recipe requires more than 45 minutes to prepare. Plan accordingly!</p>
+    </div>
+   
+    </div>
+
+<ul class="nav nav-tabs px-5 gap-4 taps pb-4 mt-5 " id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-list-check me-2 "></i>Ingredients</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-book-open me-2"></i> Instruction</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><i class="fa-solid fa-chart-pie me-2"></i>Nutrition</button>
+  </li>
+   <li class="nav-item" role="presentation">
+    <button class="nav-link" id="chef-tab" data-bs-toggle="tab" data-bs-target="#chef-tab-pane" type="button" role="tab" aria-controls="chef-tab-pane" aria-selected="false"><i class="fa-solid fa-lightbulb"></i>Chef's Tips</button>
+  </li>
+  
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active  " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+    <div id="ingredients" class="pt-3">
+    <div class="ingredient  px-4 d-flex align-items-center gap-2 mt-3">
+    <i class="fa-solid fa-1 text-white rounded-circle p-2 d-flex justify-content-center align-items-center"></i> 
+    <p class="mb-0">400g large shrimp, peeled</p>
+    </div>
+    </div>
+    
+    
+  </div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+    <div id="instructions" class="">
+      <div class="instruction  p-4 d-flex align-items-center gap-2 ">
+    <i class="fa-solid fa-1 text-white rounded-3 p-2 d-flex justify-content-center align-items-center"></i> 
+    <p class="mb-0">Cook linguine according to package directions. Reserve 1 cup pasta water.</p>
+    </div>
+    </div>
+    
+    
+  </div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+    <div class="row">
+      <div class="col- col-md-6 ">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-fire p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Calories</h3>
+          </div>
+          <p class="amount" id="calories">520 Kcal</p>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-dumbbell p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Protein</h3>
+          </div>
+          <p class="amount" id="protein">36g</p>
+        </div>
+
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 col-12">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-wheat-alt  p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Carbohydrates</h3>
+          </div>
+          <p class="amount" id="carbohydrates">54g</p>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-droplet p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Fat</h3>
+          </div>
+          <p class="amount" id="fat">18g</p>
+        </div>
+
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 col-12">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-seedling p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Fiber</h3>
+          </div>
+          <p class="amount" id="fiber">3g</p>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="calories p-3 rounded-3 d-flex justify-content-between align-items-center mt-4">
+          <div class="calo d-flex justify-content-center align-items-center gap-4">
+            <i class="fa-solid fa-cube p-4 rounded-2 d-flex justify-content-center align-items-center"></i>
+            <h3>Sodium</h3>
+          </div>
+          <p class="amount" id="sodium">620mg</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="chef-tab-pane" role="tabpanel" aria-labelledby="chef-tab" tabindex="0">
+    <div id="chefTips">
+       <div class="tips position-relative   p-4 d-flex align-items-center gap-2  rounded-4 mt-3">
+    <i class="fa-solid fa-check  text-white rounded-circle p-2 d-flex justify-content-center align-items-center"></i> 
+    <p class="mb-0">Don't overcook shrimp - they cook very quickly</p>
+    </div>
+  </div>
+   
+  </div>
+</div>
+ <button class="mb-5 py-3  px-4 border-0 rounded-4 text-white" onclick="randomRecipe()">
+   <a href="#"class="text-decoration-none text-white"><i class="fa-solid fa-arrows-rotate"></i>
+     Try Another Recipe</a>
+    </button>
+          </div>
+  
+
+           
+            </div>
+
+            
+          </div>
+          
+
+        </div>
+       
+      </div>
+    
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mainjs.js"></script>
+</body>
+</html>
