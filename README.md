@@ -18,7 +18,7 @@ What's For Dinner is a responsive recipe web application that helps users discov
 - HTML5
 - CSS3
 - Bootstrap 5
-- JavaScript (ES6)
+- JavaScript 
 - Font Awesome
 
 ## Future Improvements
